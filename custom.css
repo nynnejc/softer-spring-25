@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+  --soft-background: #f9f5f5;
+  --soft-light-gray: #e9e4e1;
+  --soft-text: #c8b3b3;
+  --soft-text-emphasis: #948484;
+  --soft-text-faded: #e2d1d1;
+  --soft-text-dark: #414141;
+  --soft-purple-light: #eceafa;
+  --soft-purple-default: #cfc9f4;
+  --soft-purple-darker: #b4addf;
+  --soft-purple-darkest: #a29acb;
+  --soft-orange: #e4846f;
+  --soft-salmon: #eeaabe;
+  --soft-violet: #cb8dd7;
+  --soft-blue: #82b4e3;
+  --soft-hot-pink: #ec57b4;
+  --soft-red: #dd698c;
+  --soft-red-faded: #db90a7;
+  --soft-green: #25b7b8;
+  --soft-green-faded: #98c4ba;
+  --soft-yellow: #ede7c5;
+  --soft-yellow-darker: #CABF9A;
+
+  --lighter-gray: #c5c8c6;
+  --light-gray: rgba(157, 157, 157, 0.6);
+  --light-gray-solid-1: #efeae8;
+  --light-gray-solid-2: #f5f0f0;
+  --light-gray-solid-3: #f3eded;
+  --light-gray-solid-4: #f5f0f0;
+  --light-gray-solid-5: #f5f0f0;
+  --gray: var(--light-gray);
+  --dark-gray: #282a2e;
+  --very-dark-gray: #1d1f21;
+  --black: var(--soft-text-dark);
+  --white: #ffffff;
+
+  --cyan: var(--soft-blue);
+  --purple: var(--soft-purple-darkest);
+  --yellow: var(--soft-yellow-darker);
+  --red: var(--soft-red);
+  --orange: var(--soft-hot-pink);
+  --morado: var(--soft-violet);
+
+  /* Theme variables using the palette */
+  --r-background-color: var(--soft-background);
+  --r-main-font: 'IBM Plex Sans', 'Arial', sans-serif;
+  --r-main-font-size: 30px;
+  --r-main-color: #4C374B;
+  --r-block-margin: 1.5em;
+
+  --r-heading-margin: 0 0 0.5em 0;
+  --r-heading-font: 'Roboto Mono', monospace;
+  --r-heading-font-weight: 300;
+  --r-heading-color: var(--soft-hot-pink);
+  --r-heading-line-height: 1.1;
+  --r-heading-letter-spacing: 0em;
+  --r-heading-text-transform: uppercase;
+  --r-heading-text-shadow: none;
+  --r-heading-font-weight: var(--r-heading-font-weight);
+
+  --r-heading1-text-shadow: none;
+  --r-heading1-size: 2.5em;
+  --r-heading2-size: 1.6em;
+  --r-heading3-size: 1.2em;
+  --r-heading4-size: 1em;
+
+  --r-code-font: 'Courier New', monospace;
+  --r-link-color: var(--soft-blue);
+  --r-link-color-dark: rgb(30.7720647773, 99.5566801619, 192.7779352227);
+  --r-link-color-hover: var(--yellow);
+  --r-link-background-color-hover: var(--soft-orange);
+  --r-selection-background-color: rgb(242, 173, 211);
+  --r-selection-color: #427bff;
+
+  --r-overlay-element-bg-color: rgba(0, 0, 0, 0.8);
+  --r-overlay-element-fg-color: #ffffff;
+}
